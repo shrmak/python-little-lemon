@@ -27,13 +27,13 @@ To install the app, clone the repository, and run the following command in the r
 If using SSH authentication:
 
 ```shell
-git clone git@github.com:Sayvai/python-django-littlelemon.git
+git clone git@github.com:shrmak/python-little-lemon.git
 ```
 
 or, if using HTTPS authentication:
 
 ```shell
-git clone https://github.com/Sayvai/python-django-littlelemon.git
+git clone https://github.com/shrmak/python-little-lemon.git
 ```
 
 ℹ️ - This step only needs to be done once, when you first install the app.
@@ -90,7 +90,7 @@ FLUSH PRIVILEGES;
 
 ℹ️ - This step only needs to be done once, when you first install the app.
 
-6. Run the individual migration commands in your terminal to create the necessary database tables in the MySQL database (**_littlelemon_sayvai_**):
+6. Run the individual migration commands in your terminal to create the necessary database tables in the MySQL database:
 
 ```shell
 python3 manage.py makemigrations
